@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900|Shadows+Into+Light+Two';
+
+html {
+  background-color: #FFF;
+  font-family: 'Heebo', sans-serif;
+}
+
+.title-container {
+  width: 50%;
+  margin: 30vh auto;
+  display: flex;
+}
+
+h1.title-name {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 150px;
+  font-weight: 100;
+  text-align: center;
+  width: auto;
+  margin: 0;
+  -webkit-animation-duration: 1.5s;
+}
+
+span.title-descriptions {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 1s;
+}
+
+span.kern {
+  letter-spacing: -.3em;
+}
+
